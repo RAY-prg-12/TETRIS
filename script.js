@@ -461,7 +461,7 @@ function selectDraw(){
     ctx.fillText("ラインアタック",232,292)
     ctx.fillText("タイムアタック",232,324)
     ctx.fillText("グランドマスター",232,356)
-    ctx.fillText("キーコンフィグ",232,388)
+    //ctx.fillText("キーコンフィグ",232,388)
 }
 
 function setDraw(){
@@ -2139,12 +2139,12 @@ function keydown(event){
     if(nowmode == MODESELECT){
         if(event.keyCode == 38){
             if(gamemode == STANDARD){
-                gamemode = KCONFIG;
+                gamemode = GRANDMASTER;
             }else{
                 gamemode--;
             }
         }else if(event.keyCode == 40){
-            if(gamemode == KCONFIG){
+            if(gamemode == GRANDMASTER){
                 gamemode = STANDARD;
             }else{
                 gamemode++;
