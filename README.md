@@ -1,8 +1,7 @@
 # TETRIS
 JavaScript で作ったテトリスです。
 PC 限定です。
-以下の URL からどうぞ。
-https://twelve-3.github.io/TETRIS/
+[ここからプレイできます。](https://ray-prg-12.github.io/TETRIS/)
 *****
 # How to Play
 左右のキーでテトリミノを移動させ、上キーで右回転、Zキーで左回転。
